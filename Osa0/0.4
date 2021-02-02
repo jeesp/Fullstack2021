@@ -1,0 +1,17 @@
+title Sending new note
+
+Selain->Palvelin: HTTPS POST https://studies.cs.helsinki.fi/exampleapp/new_note 
+Selain->Palvelin: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/notes
+Palvelin->Selain: html-koodi
+
+Selain->Palvelin: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/main.css
+
+Palvelin->Selain: main.css
+
+Selain->Palvelin: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/main.js
+
+Palvelin->Selain: main.js
+
+Selain->Palvelin: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/data.json
+
+Palvelin->Selain: data.json
